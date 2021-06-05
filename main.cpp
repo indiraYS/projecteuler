@@ -4,6 +4,7 @@
 #include "Task13.h"
 // #include "Task24.h"
 #include "Task25.h"
+#include "Task28.h"
 #include <algorithm>
 #include <vector>
 #include <chrono>
@@ -136,7 +137,7 @@ int main() {
     cout << "euclid " << c << endl;*/
     //Task13 t; t.calc();
     //Task24 t; t.calc();
-    Task25 t; t.calc();
+    Task28 t; t.calc();
     auto stop = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
     cout << "Duration in micro: " <<duration.count() << endl;
